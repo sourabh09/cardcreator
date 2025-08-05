@@ -119,22 +119,5 @@ $(document).ready(function(){
         });
         $('.info').show();
         $("html, body").animate({ scrollTop: $(document).height() }, 500);
-    });
-
-
-    
+    });    
    });
-
-  $(document).ready(function(){
-      var ua = detect.parse(navigator.userAgent);
-          //alert(ua.device.manufacturer);
-          if(ua.device.manufacturer=="Apple"){
-
-            $("#btnSave").hide();
-
-          }else{
-
-            $("#btnSave").show();
-          }
-
-    });
