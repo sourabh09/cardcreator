@@ -107,9 +107,6 @@ font-family: 'Damion', cursive;
 #img-out{
 	text-align: center;
 }
-#btnSave{
-	display: none;
-}
 .cardtype {
    -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -133,4 +130,5 @@ font-family: 'Damion', cursive;
 }
 #kofilink{
   margin-top: 5px;
+
 }
