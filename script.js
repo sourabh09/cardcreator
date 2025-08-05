@@ -86,7 +86,7 @@ $(document).ready(function(){
 
 
 	 $("#btnSave").click(function() { 
-        var scaleBy = 100;
+        var scaleBy = 10;
         var w = 1000;
         var h = 1000;
         var div = document.querySelector('.card');
@@ -121,4 +121,5 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: $(document).height() }, 500);
     });    
    });
+
 
